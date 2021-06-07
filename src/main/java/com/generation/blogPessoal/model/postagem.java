@@ -19,8 +19,6 @@ import com.sun.istack.NotNull;
 @Table(name = "postagem")
 public class postagem {
 	
-	//atributos
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
